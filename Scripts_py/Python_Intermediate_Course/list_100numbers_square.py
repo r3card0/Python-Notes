@@ -1,4 +1,4 @@
-# Create a list of the square of the firsts 100 numbers. List comprehension
+# Create a list of squares of the first 100 natural numbers. List comprehension
 # structure [element for element in iterable if condition]
 
 def square():
