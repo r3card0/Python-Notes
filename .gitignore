@@ -2,3 +2,4 @@ Doc/
 .DS_Store
 images/
 .ipynb_checkpoints/
+.vscode
