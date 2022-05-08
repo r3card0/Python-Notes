@@ -3,3 +3,4 @@ Doc/
 images/
 .ipynb_checkpoints/
 .vscode
+venv_pn/
