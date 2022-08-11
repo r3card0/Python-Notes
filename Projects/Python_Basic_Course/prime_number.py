@@ -2,17 +2,23 @@
 
 # (2) prime number expression
 def prime_number(number):
-    counter = 0
-
-    for i in range(1, number + 1):
-        if i == 1 or i == number:
-            continue
-        if number % i == 0:
-            counter += 1
-    if counter == 0:
+    if number > 1:
+        for i in range(2,int(number ** 0.5) + 1):
+            if number % i == 0:
+                return False
         return True
-    else:
-        return False
+    return False
+    # counter = 0
+
+    # for i in range(1, number + 1):
+    #     if i == 1 or i == number:
+    #         continue
+    #     if number % i == 0:
+    #         counter += 1
+    # if counter == 0:
+    #     return True
+    # else:
+    #     return False
 
 # (1) user input
 def enter_a_number():
