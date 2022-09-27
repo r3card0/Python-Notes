@@ -5,6 +5,12 @@
 ## Scope
 - The content is in Spanish
 
+## Installation
+Use the package manager *pip* to install *jupyter notebooks*
+```bash
+pip install jupyter
+```
+
 ### Python Basic Notes
 1. [Introduccion](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/01_introduccion.ipynb)
 2. [Comando *print*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/02_comando-print.ipynb)
