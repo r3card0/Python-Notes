@@ -35,6 +35,17 @@
 25. [Assert Statements](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/25_Assert_Statements.ipynb)
 26. [Manejo de archivos de texto](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/26_Archivos_de_texto.ipynb)
 
+### Python Advanced Notes
+28. [Como funciona Python](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/28_Como_funciona_python.ipynb)
+29. Tipado Estatico
+30. Alcance de variables: Scope
+31. Closures
+32. Decoradores
+33. Iteradores
+34. Generadores
+35. Sets
+36. Manejo de Fechas
+37. Time zones
 
 
 
