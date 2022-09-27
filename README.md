@@ -3,7 +3,7 @@
 - This is a personal project to share my notes about Python. In this are shared all small projects created on my learning process.
 
 ## Scope
-- The content is in Spanish language
+- The content is in Spanish
 
 ### Python Basic Notes
 1. [Introduccion](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/01_introduccion.ipynb)
