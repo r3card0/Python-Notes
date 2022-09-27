@@ -1,59 +1,41 @@
 ![Images](1641962814783.jpeg)
 # Python-Notes
-- Este archivo contiene una versión en Español y una versión en Inglés 
-- This file has a Spanish version and an English version.
+- This is a personal project to share my notes about Python. In this are shared all small projects created on my learning process.
 
-*** Versión en español | Spanish version ***
+## Scope
+- The content is in Spanish language
 
-Objetivos: 
-* Reforzar conocimientos generales de Python. 
-* Compartir notas de los conceptos de Python. 
-* Enseñar los conceptos generales del lenguaje Python a través de notebooks.
-* Aplicar lo aprendido en los cursos: 
-    1. Python Básico 
-    2. Python Intermedio
-    3. Python Avanzado
-    4. Git y GitHub
-    5. Entornos de trabajo para Data Science
-    6. Terminal y Línea de Comandos
-    7. Marca personal
+### Python Basic Notes
+1. [Introduccion](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/01_introduccion.ipynb)
+2. [Comando *print*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/02_comando-print.ipynb)
+3. [Operadores](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/03_operadores.ipynb)
+4. [Variables](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/04_variables.ipynb)
+5. [Tipos de Datos](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/05_tipos-de-datos.ipynb)
+6. [Condicionales](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/06_condicionales.ipynb)
+7. [Funciones](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/07_funciones.ipynb)
+8. [Manejo de datos tipo *String*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/08_tipos-de-datos-strings.ipynb)
+9. [Ciclos - *while*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/09_ciclo-while.ipynb)
+10. [Ciclos - *for*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/10_ciclo-for.ipynb)
+11. [Estructuras de Datos - *Listas*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/11_listas.ipynb)
+12. [Estructuras de Datos - *Tuplas*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/12_tuplas.ipynb)
+13. [Estructuras de Datos - *Diccionarios*](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/13_diccionarios.ipynb)
 
-* Practicar el uso de Jupyter Notebooks en VSCode, Google Colab y Deepnote.
-* Crear entornos virtuales con Conda.
-* Crear y editar archivos de Jupyter notebooks en VSCode.
-* Crear y editar archivos desde la Terminal-
-* Uso de la Terminal y líneas de comandos.
-* Usar la cuenta de Deepnote como Portafolio.
-* Usar GitHub como manejador de versiones. 
-* Publicar el enlace del proyecto en la cuenta de LinkedIn.
+### Python Intermediate Notes
+14. [Zen de Python](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/14_informacion-general.ipynb)
+15. [Como crear entornos virtuales](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/15_entornos_virtuales.ipynb)
+16. [Listas y diccionarios anidados](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/16_listas-diccionarios-anidados.ipynb)
+17. [List Comprehension](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/17_list_comprehensions.ipynb)
+18. [Dictionary Comprehension](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/18_dictionary_comprehension.ipynb)
+19. [Funciones anonimas (Lambda)](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/19_lambda-funciones-anonimas.ipynb)
+20. [High order Functions](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/20_High-order-functions-filter-map-reduce.ipynb)
+21. [Ejercicios](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/21_ejercicios-funciones-listas-diccionarios.ipynb)
+22. [Manejo de Errores](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/22_manejo-de-errores.ipynb)
+23. [Debuggin](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/23_Debugging_Depuracion.ipynb)
+24. [Manejo de Excepciones](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/24_manejo-excepciones.ipynb)
+25. [Assert Statements](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/25_Assert_Statements.ipynb)
+26. [Manejo de archivos de texto](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/26_Archivos_de_texto.ipynb)
 
-- Alcance: El contenido de este proyecto está dirigido para los usuarios del idioma español.
 
-*** English version | Versión en Inglés ***
-
-Objectives: 
-* Reinforce general knowledge of Python programming language. 
-* Share notes related to concepts of Python. 
-* Teach some general concepts of Python programming language using Jupyter notebooks.
-* Apply knowlege acquired in: 
-    1. Python Basic course 
-    2. Python Intermediate course 
-    3. Python Advanced course 
-    4. Git and GitHub course 
-    5. Data Science workspaces course 
-    6. Command line course 
-    7. Personal Brand course 
-
-* Practice the use of Jupyter Notebooks in VSCode, Google Colab and Deepnote.
-* Create virtual environments with Conda.
-* Create and edit notebooks files in VSCode.
-* Create and edit files from the Terminal.
-* Use of Terminal and Command line.
-* Use Deepnote as portfolio. 
-* Use GitHub as control version 
-* Publish the project link in LinkedIn.
-
-- Scope: The content is in Spanish
 
 
 
