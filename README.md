@@ -49,9 +49,10 @@ pip install jupyter
 32. Decoradores
 33. Iteradores
 34. Generadores
-35. Sets
-36. Manejo de Fechas
-37. Time zones
+35. [Sets](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/36_Sets.ipynb)
+36. [Operaciones en Sets](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/37_Sets_operaciones.ipynb)
+37. Manejo de Fechas
+38. Time zones
 
 
 
