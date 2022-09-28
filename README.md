@@ -1,6 +1,6 @@
 ![Images](1641962814783.jpeg)
 # Python-Notes
-- This is a personal project to share my notes about Python. In this are shared all small projects created on my learning process.
+- This is a personal project to share my notes about Python programming language.
 
 ## Scope
 - The content is in Spanish
