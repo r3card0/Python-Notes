@@ -12,7 +12,7 @@ pip install jupyter
 ```
 
 ### Python Basic Notes
-[Topisc](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/00_Python_Basico.md)
+[Topics](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/00_Python_Basico.md)
 
 ### Python Intermediate Notes
 14. [Zen de Python](https://github.com/r3card0/Python-Notes/blob/main/PythonIntermediate/14_informacion-general.ipynb)
