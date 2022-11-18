@@ -33,7 +33,7 @@ pip install jupyter
 28. [Como funciona Python](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/28_Como_funciona_python.ipynb)
 29. [Tipado Estatico](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/29_Tipados.ipynb)
 30. Alcance de variables: Scope
-31. Closures
+31. [Closures](https://github.com/r3card0/Python-Notes/blob/main/PythonProfessional/31_Closures.ipynb)
 32. Decoradores
 33. Iteradores
 34. Generadores
