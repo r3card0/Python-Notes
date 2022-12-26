@@ -2,7 +2,7 @@
 
 ## How to extract keys?
 
-* By selecting the key name
+### By selecting the key name
 ```bash
 dictionary_name['key_name']
 ```
@@ -27,7 +27,7 @@ Output
 
  
 
-* By implementing *get* method
+### By implementing *get* method
 ```bash
 dictionary_name.get('key_name')
 ```
