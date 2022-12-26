@@ -77,3 +77,30 @@ Output
 ```
 dict_keys(['Jason','Dick',Damian','Tim'])
 ```
+
+## How to add a new key into a dictionary?
+```bash
+# Proper syntax
+dictionary_name['new_key_name'] = 'value' # this could be any data type
+```
+Example:
+```bash
+# Students marks
+student_marks = {
+  'Jason' = [20,30,40],
+  'Dick' = [40,60,32],
+  'Damian' = [68,50,20],
+  'Tim' = [10,70,43],
+  }
+ 
+# Add new key
+student_marks['Stephanie'] = [100,45,87]
+
+# Use a variable to assign result
+keys_method = student_marks.keys()
+print(keys_method)
+```
+Output
+```
+dict_keys(['Jason','Dick',Damian','Tim','Stephanie'])
+```
