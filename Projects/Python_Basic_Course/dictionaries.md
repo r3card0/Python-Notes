@@ -77,6 +77,11 @@ Output
 ```
 dict_keys(['Jason','Dick',Damian','Tim'])
 ```
+### Using *for* loop to list keys
+```bash
+for i in student_marks.keys():
+  print(i)
+```
 
 ## How to add a new key into a dictionary?
 ```bash
