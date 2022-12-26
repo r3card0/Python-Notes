@@ -95,6 +95,20 @@ Dick
 Damian
 Tim
 ```
+### Access to keys and put them in a *list* (data structure)
+Example
+```bash
+inThisList = [] # empty list
+for i in student_marks.keys():
+    inThisList.append(i)
+return inThisList
+```
+Output:
+```bash
+['Jason','Dick','Damian','Tim']
+```
+
+    
 
 ## How to add a new key into a dictionary?
 ```bash
