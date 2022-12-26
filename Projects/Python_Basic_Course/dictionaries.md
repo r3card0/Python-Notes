@@ -1,9 +1,10 @@
 # How to handle dictionaries?
 
-## How to extract the values?
+## How to access to the values?
 
 ### Extract values by selecting the key name
 ```bash
+# Proper syntax
 dictionary_name['key_name']
 ```
 Example:
@@ -29,6 +30,7 @@ Output
 
 ### Extract the values by implementing *get* method
 ```bash
+# Proper syntax
 dictionary_name.get('key_name')
 ```
 
