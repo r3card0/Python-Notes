@@ -4,6 +4,10 @@
 * Practice the usage of *if*, *elif* and *else*
 * What is going to happen when a person save an amont of money during a year? what place is going to choose to visit to?. [Trip](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/trip.py)
 
+## Gues the password
+* Practice of usage of *while* loop
+* Given a hidden password, the user must to guess it. [Guess password](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/guess-password.py)
+
 ## Find the largest number
 * Practice de usage of command *max()*, *for* loop, *append()*
 * Get an integer as an input and select the largest number of a range of values
