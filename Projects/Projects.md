@@ -15,3 +15,8 @@
 
 ## Print every possible sorbet duos 
 * This program prints every possible sorbet duos from a given list of flavors. [Flavors](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/flavors.py)
+
+## Magic Hat
+* Practice of usage of *decorators* 
+* Modules: random, typing, datetime
+* The hat tells you what house are you belong to: [Magic Hat](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/hat.py)
