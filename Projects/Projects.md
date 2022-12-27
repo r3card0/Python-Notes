@@ -8,3 +8,6 @@
 ## 2. Fibonacci Series Number
 1. Print a Fibonacci serie number. [Fibonacci1](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/fibonacci1.py)
 2. Print a range of Fibonacci serie numbers. [Fibonacci2](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/fibonacci2.py)
+
+## 3. Print every possible sorboet duos 
+* This program prints every possible sorbet duos from a given list of flavors. [Flavors](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/flavors.py)
