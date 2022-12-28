@@ -25,5 +25,16 @@
 * Modules: random, typing, datetime
 * The hat tells you what house are you belong to: [Magic Hat](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/hat.py)
 
+## Get and integer and return a string
+* There is a list of strings
+```bash
+strings = ['zero','one','two','three','four','five','six','seven']
+```
+* Get an integer as an input and return a string. If the integer == 1 then return *one*. If the integer is greater than list strings, then, return 'OTHER'
+* Practice of usage of *try* and *except* commands
+* Use of *for* loop
+* Practice of *list* methods such as: *upper()*, *len()*
+* [Return a String](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/choose_element_list.py)
+
 ## Download audios and videos
 * Use of *pytube*, *os*, *ssl* modules. [Download videos-audios](https://github.com/r3card0/studious-spork)
