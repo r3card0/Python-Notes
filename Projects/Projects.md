@@ -24,3 +24,6 @@
 * Practice of usage of *decorators* 
 * Modules: random, typing, datetime
 * The hat tells you what house are you belong to: [Magic Hat](https://github.com/r3card0/Python-Notes/blob/main/Projects/Fun/hat.py)
+
+## Download audios and videos
+* Use of *pytube*, *os*, *ssl* modules. [Download videos-audios](https://github.com/r3card0/studious-spork)
