@@ -6,7 +6,7 @@ def description():
     List 2: 54,0.006, -452, 45.78,-4.5
     1. Concatenate lists
     2. Sort the new list
-    3. Expected output: [-452, -345, -9, -4.5, -3.78, 0, 0.006, 1, 5.78, 12, 45, 45.78, 54, 67, 234]
+    3. Expected output: [-452, -345, -9, -4.5, -3.78, 0, 0.006, 1, 5.78, 12, 45, 45.78, 54, 67,67, 234]
     """
     return desc
 
@@ -16,7 +16,7 @@ def numbersList():
     return numberList_
 
 def anotherNumbersList():
-    numberList_ = [54,0.006, -452, 45.78,-4.5]
+    numberList_ = [54,0.006, -452, 45.78,-4.5,67]
     return numberList_
 
 ## Concatenation of lists
