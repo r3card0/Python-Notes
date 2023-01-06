@@ -16,6 +16,7 @@
 * La sintaxis correcta es: ```lista.sort()```
 * No se debe guardar en una variable porque el resultado será ```None```
 * [Ordenar una lista con elementos tipo string](https://github.com/r3card0/Python-Notes/blob/main/Projects/Python_Basic_Course/group_A.py)
+* [Ordenar una lista con elementos numéricos](https://github.com/r3card0/Python-Notes/blob/main/Projects/Python_Basic_Course/sortNumbersList.py)
 
 ## Agregar elementos a una lista
 
