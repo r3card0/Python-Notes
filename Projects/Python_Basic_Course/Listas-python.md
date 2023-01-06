@@ -23,5 +23,5 @@
 * Usando el metodo **append()**
 * Usando el método **insert()**
 * Haciendo una concatenación de listas
-    - Concatenación de listas con el mismo tipo de dato
+    - Concatenación de listas con el mismo tipo de dato. [Listas de Strings](), [Listas de números](https://github.com/r3card0/Python-Notes/blob/main/Projects/Python_Basic_Course/concatNumberLists.py), [Listas de booleanos]()
     - Concatenación de listas con diferente tipo de dato
