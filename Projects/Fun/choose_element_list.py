@@ -16,7 +16,7 @@ def return_a_string(number:int):
         return 'OTHER'
 
 def run():
-    print(return_a_string('six'))
+    print(return_a_string(6))
 
 if __name__ == "__main__":
     run()
