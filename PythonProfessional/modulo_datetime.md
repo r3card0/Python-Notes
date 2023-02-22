@@ -21,7 +21,14 @@ def timeCasting(string):
 # Como obtener la fecha -> hoy
 Este código retorna el siguiente formato de fecha: YYYY-DD-MM
 ```
+from datetime import date
+
 today = date.today()
+```
+output
+```
+>>> print(today)
+2023-02-22
 ```
 
 # Como hacer una resta entre fechas
