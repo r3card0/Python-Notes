@@ -45,3 +45,7 @@ output
 >>> print(dias)
 8453 days, 0:00:00
 ```
+# Como poner la fecha en el nombre de un archivo - output
+```
+df.to_csv(f'faltan_x_cargar_{mes}-{year}_' + datetime.datetime.now().strftime('%d-%b-%Y') + '.csv',index=False)
+```
