@@ -1,5 +1,5 @@
 # Diccionarios en Python
-Los diccionarios son estructuras de datos que alamacenan informacion en pares. Estos pares se les conoce como keys y values. Los keys, serian como los encabezados de una tabla y los values, representan los valores de la columna.
+Los diccionarios son estructuras de datos que almacenan información en pares. Estos pares se les conoce como **keys** e **items**. Los *keys*, serian como los encabezados de una tabla y los *items*, representan los valores de la columna.
 
 Los diccionarios se crean usando { } y separando los keys de los values con **:**
 ````
@@ -8,6 +8,23 @@ diccionario = {
 }
 ````
 
+Ejemplo práctico de un diccionario
+````
+# ejemplo práctico de un diccionario
+def run():
+    profesionistas = {
+        "Hugo Sánchez" : "Futbolista",
+        "Shakira" : "Cantante",
+        "Darth Vader" : "Lord Sith",
+        "Gregory House" : "Médico",
+        "César Millan" : "Encantador de Perros"
+    }
+
+    print(profesionistas)
+
+if __name__=="__main__":
+    run()
+````
 Los diccionarios pueden almacenar varias combinaciones de datos: texto, numeros, booleanos, listas, tuplas, sets y hasta otros diccionarios. Son estructuras de datos  complejas muy usados en la industria de la tecnología para alamacenar e intercambiar información entre aplicaciones. 
 
 Un diccionario, no puede tener dos keys con el mismo nombre.
