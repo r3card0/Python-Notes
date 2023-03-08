@@ -1,9 +1,16 @@
 # Diccionarios en Python
-Los diccionarios son estructoras de datos que alamacenan informacion en pares. Estos pares se les conoce como keys y values. Los keys, serian como los encabezados de una tabla y los values, representan los valores de la columna.
+Los diccionarios son estructuras de datos que alamacenan informacion en pares. Estos pares se les conoce como keys y values. Los keys, serian como los encabezados de una tabla y los values, representan los valores de la columna.
 
-Un diccionario, no puede tener dos keys con el mismo nombre. Los valores si pueden repetirse. 
+Los diccionarios se crean usando { } y separando los keys de los values con **:**
+````
+diccionario = {
+    'key1' : value
+}
+````
 
-Los diccionario son estructuras de datos ordenadas. 
+Los diccionarios pueden almacenar varias combinaciones de datos: texto, numeros, booleanos, listas, tuplas, sets y hasta otros diccionarios. Son estructuras de datos  complejas muy usados en la industria de la tecnología para alamacenar e intercambiar información entre aplicaciones. 
+
+Un diccionario, no puede tener dos keys con el mismo nombre.
 
 A pesar que de que se pueden escribir valores repetidos en un diccionario y no levanta error. en el momento de imprimirlo, unicamente presenta un resultado.
 ````
@@ -34,3 +41,5 @@ dicto1 = {
  {'pais': 'Argentina'}
  ````
 
+
+Los diccionarios son estructuras de datos ordenadas. 
