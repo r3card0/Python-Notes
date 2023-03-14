@@ -182,3 +182,77 @@ def saludo(nombre='Bruce'):
 saludo('Batman')
 ```
 En este ejmplo, se aplican parametros nombrados *keywords arguments* -> (nombre= 'Cesar') y **kwargs permite recibir este tipo de parámetros para que el script corra correctamente.
+
+- [Yo soy tu padre](/Projects/Python_Professional_Course/decoradores/soytupadre.py)
+- [Caja](/Projects/Python_Professional_Course/decoradores/caja.py)
+
+## Referencias
+- [ ] [Programando decoradores](https://platzi.com/clases/2397-python-profesional/39530-programando-decoradores/)
+
+# Iteradores
+Los iterables son los objetos que se pueden recorrer en un ciclo. Una lista es un iterable, un diccionario, tupla, set, strings.
+
+Los iterables son estructuras de datos divisibles en elementos únicos que se pueden recorrer en un ciclo. 
+
+Cuando Python recorre un iterable a través de un cilco *for*, lo que sucede es que el iterable se convierte en un objeto tipo *iterador* y es el *iterador* es que puede recorrerse con un loop dentro de Python.
+
+* En Python no existe *for*, esto es *sugar syntax*
+* Internamente el lenguaje es asi
+```
+# Creando el iterador
+my_list = [1,2,3,4,5]
+my_iter = iter(my_list)
+
+# iterando el iterador
+print(next(my_iter))
+```
+La estructura de datos, es convertida en un iterador, y para recorrerlo, se requiere la función *next*. 
+
+Cuando termina de recorrer los elementos, se levanta la excepción *StopIteration*
+
+Este recorrido se aplica cada vez que se ejecuta esta función *next*, pero que pasa cuando hay un millón de elementos, para eso Python ejecuta el siguiente codigo:
+## Lógica interna de *for*
+```
+ # Creando el iterador
+my_list = [1,2,3,4,5]
+my_iter = iter(my_list)
+
+# iterando el iterador -> su alias es el ciclo for
+while True:
+    try:
+        element = next(my_iter)
+        print(elment)
+    except StopIteration:
+        break
+```
+En este código se aplica un loop infinito mediante el comando *while*, donde se define que ejecute el ciclo mientras que encuentre o se presente el valor *True*, de esta forma de crea el ciclo infinito y cuando se termine de recorrer todos los elementos, entonces será un False y cuando eso suceda levantara la exception StopIteration.
+
+Se implementan *try* y *except* para el manejo de errores
+
+En *try*, se busca extraer e imprimir el siguiente elemento en el iterador. En la variable *element*, se asigna la tarea de *[next](/PythonProfessional/00_Python_Avanzado.md#next)(my_iter)*, el cual retorna el siguiente elemento del iterador *my_item*
+
+En *except*, cuando los elementos terminan de recorrerse, levanta la *exception* *[StopIteration](https://www.w3schools.com/python/python_ref_exceptions.asp)*. Esto ocurre cuando al terminarse los elementos, el comando *break* corta el ciclo.
+
+El ciclo *for* es la *sugar syntax* y el [codigo anterior](/PythonProfessional/00_Python_Avanzado.md#lógica-interna-de-for) se representa con el siguiente:
+```
+for element in my_list:
+    print(element)
+```
+El ciclo *for* en realidad es un alias del loop infinito while True antes visto.
+
+## next()
+Esta función es [*built_in*](https://docs.python.org/3/library/functions.html), [next()](https://docs.python.org/3/library/functions.html#next) y su función es retornar el siguiente elemento en un iterador
+
+1. Tener un a estructura de datos iterable
+2. Convertir en iterador iter()
+3. Iterar (repasar, recorrer) el iterador
+
+el código infinito visto, permite aplicarlo en cualquier estructura de datos que haya sido convertida en iterador. Es una manera eficiente, de extraer todos los elementos de un iterador que proviene de un iterable.
+
+## Referencias
+- [ ] [Lista de palabras built-in](https://docs.python.org/3/library/functions.html)
+- [ ] [Python keyword](https://www.w3schools.com/python/python_ref_keywords.asp)
+- [ ] **StopIteration**:	Raised when the next() method of an iterator has no further values
+- [ ] [**iter**: Returns an iterator object](https://docs.python.org/3/library/functions.html#iter)
+
+# ¿Cómo construir un iterador personalizado?
