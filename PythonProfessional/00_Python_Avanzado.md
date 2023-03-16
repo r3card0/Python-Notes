@@ -256,3 +256,27 @@ el código infinito visto, permite aplicarlo en cualquier estructura de datos qu
 - [ ] [**iter**: Returns an iterator object](https://docs.python.org/3/library/functions.html#iter)
 
 # ¿Cómo construir un iterador personalizado?
+
+# Built-in Functions
+
+#### abs()
+Returna el valor absoluto de un número. El valor absoluto de 4 es 4. El valor absoluto de -4 es 4. El valor absoluto de un número es su valor en positivo.
+
+Recibe un parámetro como argumento, ya sea un valor directo o una variable
+
+```
+x = 8
+y = 8.5
+z = -8
+
+print(abs(-4))
+print(abs(x))
+print(abs(y))
+print(abs(z))
+```
+#### bin()
+Returns the binary representation of an integer. retorna la representación binaria de un numero entero
+
+examples:
+
+[Birthday](/Projects/Fun/bin.py)
