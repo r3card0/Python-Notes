@@ -64,8 +64,12 @@ Los métodos son usados para distintos propósitos, lo cuales pueden orderar, el
 |copy()	| Retorna una copia de la lista. Se puede guardar en una nueva variable| copy_of_the_list = list.copy()
 |count() |Retorna el numero de veces que se repite un item en la lista| list.count('valor')|
 
+## ¿Por qué se dice que las listas son *Mutables*
+
+Es conocido que las listas tienen la capacidad de mutabilidad o de ser mutables. Esto quiere decir que las listas pueden cambiar. y ¿Cómo cambian?, bueno, cambian por que algún elemento puede ser borrado o agregado a la lista. Esta característica, las convierte en **estructuras de datos mutables**. Y esto se logra con los métodos previamente vistos
 
 
+## Resumen
 
-
+Las listas son colecciones de elementos que pueden ser almacenados en una variable. Esta colección de elementos también se le conoce como estructura de datos. Y es una estructura de datos indexada (que tiene indices), ordenada, es mutable (se puede agregar o eliminar elementos) y puede contener elementos duplicados.
 
