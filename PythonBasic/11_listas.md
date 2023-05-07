@@ -66,7 +66,9 @@ Los métodos son usados para distintos propósitos, lo cuales pueden orderar, el
 
 ## ¿Por qué se dice que las listas son *Mutables*
 
-Es conocido que las listas tienen la capacidad de mutabilidad o de ser mutables. Esto quiere decir que las listas pueden cambiar. y ¿Cómo cambian?, bueno, cambian por que algún elemento puede ser borrado o agregado a la lista. Esta característica, las convierte en **estructuras de datos mutables**. Y esto se logra con los métodos previamente vistos
+Es conocido que las listas tienen la capacidad de mutabilidad o de ser mutables. Esto quiere decir que las listas pueden cambiar. y ¿Cómo cambian?, bueno, cambian por que algún elemento puede ser borrado o agregado a la lista. Esta característica, las convierte en **estructuras de datos mutables**. Y esto se logra con los métodos previamente vistos.
+
+![mutable](https://media.giphy.com/media/aJuMTfiiYm1GVa5BFS/giphy.gif)
 
 
 ## Resumen
