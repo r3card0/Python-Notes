@@ -53,9 +53,25 @@ Hay varias formas de crear una lista:
 
 
 ### Crear una lista 
-Crear una lista de paises que empiezen con la letra "A"
+Crear una lista de paises que empiecen con la letra "A"
+1. definir el nombre de la variable, en este caso será: ```paises```
+2. Usar los corchetes ```[]```que distinguen a las listas
+3. Respetar la sintáxis de los tipos de datos. En ese caso son cadenas de texto (string), por lo que cada pais debe estar escrito entre comillas simples 'pais'
+4. Separar cada pais (item) usando la coma ```,```
+
 ```
+# definir la variable -> lista
 paises = ['Argentina','Alemania','Arabia Saudita','Austria','Angola','Australia']
+
+# imprimir en pantalla
+print(paises)
+
+# Contar los elementos de la lista
+print(len(paises))
+
+# Castear el tipo de dato
+print(type(paises)
+
 ```
 
 
