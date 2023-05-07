@@ -44,6 +44,36 @@ Los índices, permiten:
   3. contar la cantidad de elementos (item) en una lista
   4. eliminar y agregar items en la lista
 
+## Como crear una lista
+Hay varias formas de crear una lista:
+  1. Manual
+  2. Aplicando el método constructor ```list()```
+  3. Aplicando el método ```split()```
+  4. Creando una lista a partir de una iteración -> *List Comprehension* (nivel intermedio)
+
+
+### Crear una lista 
+Crear una lista de paises que empiezen con la letra "A"
+```
+paises = ['Argentina','Alemania','Arabia Saudita','Austria','Angola','Australia']
+```
+
+
+### Método constructor ```list()```
+El método constructor ```list()``` , se implementa cuando se quiere convertir una colección de elementos como la tupla o el Set.
+```
+# convertir el set1 a lista
+set1 = {1,2,3,4}
+
+# convertir el set a lista
+list_1 = list(set1)
+
+# Imprimir el data type y el resultado
+print(type(list_1)
+print(list_1
+```
+
+
 
 ## Acceso a los items de una lista
 
@@ -63,6 +93,7 @@ Los métodos son usados para distintos propósitos, lo cuales pueden orderar, el
 |remove()	| Elimina un item de la lista. Para eliminarlo, recibe como parámetro el valor del item| list.remove('valor'(|
 |copy()	| Retorna una copia de la lista. Se puede guardar en una nueva variable| copy_of_the_list = list.copy()
 |count() |Retorna el numero de veces que se repite un item en la lista| list.count('valor')|
+| len() | Retorna la cantidad de elementos contenidos en una lista. Retorna un valor numérico| len(list)|
 
 ## ¿Por qué se dice que las listas son *Mutables*
 
