@@ -30,3 +30,16 @@ En este ejemplo, se puede observar que la lista contiene elementos con diferente
 -  pueden ser ordenadas, 
 -  permiten valores duplicados, 
 -  permiten borrar y agregar elementos (items) -> **mutables**
+-  Sin iterables
+
+
+## Listas son estructuras indexadas
+Las listas son estructuras que tienen indices. Los indices son elementos numéricos internos de la lista que permite asignar una posicion única al item que compone la lista. De esta forma, permite ordenar, eliminar y agregar items dentro de la lista. 
+
+![image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.scaler.com%2Ftopics%2Fmedia%2FPython-list-index-1-1024x498.jpeg&f=1&nofb=1&ipt=a6dbfa83da9f10b83b18f8d0146536d7a61d122006e0c87efdf0a86494d1193c&ipo=images)
+
+Los índices, permiten:
+  1. accesar a uno o varios items de la lista
+  2. ordenar elementos (item) en una lista
+  3. contar la cantidad de elementos (item) en una lista
+  4. eliminar y agregar items en la lista
