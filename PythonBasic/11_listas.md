@@ -122,6 +122,9 @@ Es conocido que las listas tienen la capacidad de mutabilidad o de ser mutables.
 
 Las listas son colecciones de elementos que pueden ser almacenados en una variable. Esta colección de elementos también se le conoce como estructura de datos. Y es una estructura de datos indexada (que tiene indices), ordenada, es mutable (se puede agregar o eliminar elementos) y puede contener elementos duplicados.
 
+## Ejemplos
+* [Crear una lista de ids](https://github.com/r3card0/Python-Notes/blob/main/Projects/list_extraction.md)
+
 # Referencias
 - [ ] [Almacenar varios valores en una variable: listas](https://platzi.com/clases/1937-python-basico/29646-almacenar-varios-valores-en-una-variable-listas/)
 - [ ] [More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
