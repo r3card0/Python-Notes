@@ -1,5 +1,5 @@
 
-# Ejemplo
+# Crear una lista de ids
 Un ejemplo para extraer los elementos de una lista teniendo como elementos strings. La caracteristica de estos strings es que se pueden comportar como listas. Observa el siguiente arreglo:
 ```
 ['12345,34567','94856,2384767,294873','9584763,84756','823189,138988']
