@@ -106,3 +106,12 @@ print(rock2)
 
 $output: ['Sands', 'Clays']
 ````
+Otro ejemplo seria:
+````
+colors = ('red','white','green','brown','maroon')
+
+(fruit,*meal, milk) = colors
+print(milk)
+print(fruit)
+print(meal)
+````
