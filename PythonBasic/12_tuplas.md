@@ -88,7 +88,8 @@ clastic_rocks_tuple = ('Gravels','Sands','Clays')
 (rock1,rock2,rock3) = clastic_rocks_tuple
 
 print(rock2)
-
+````
+````
 $output: Sands
 ````
 ### Aplicando * en el **unpakcing**
@@ -103,7 +104,9 @@ clastic_rocks_tuple = ('Gravels','Sands','Clays')
 
 print(rock2)
 
-
+````
+Output:
+````
 $output: ['Sands', 'Clays']
 ````
 Otro ejemplo seria:
@@ -114,7 +117,9 @@ colors = ('red','white','green','brown','maroon')
 print(milk)
 print(fruit)
 print(meal)
-
+````
+Output:
+````
 $output: maroon
 $output: red
 $output: ['white', 'green', 'brown']
@@ -128,7 +133,9 @@ i = 0
 while i < len(colors):
     print(colors[i])
     i = i+1
-
+````
+Output:
+````
 $output: red
 $output: white
 $output: green
@@ -140,7 +147,9 @@ $output: maroon
 colors = ('red','white','green','brown','maroon')
 for color in colors:
     print(color)
-
+````
+Output:
+````
 $output: red
 $output: white
 $output: green
@@ -155,7 +164,9 @@ colors = ('red','white','green','brown','maroon')
 
 for color in range(len(colors)):
     print(colors[color])
-
+````
+Output:
+````
 $output: red
 $output: white
 $output: green
@@ -171,6 +182,9 @@ colors2 = ('yellow','blue','beige')
 
 colors3 = colors + colors2
 print(colors3)
+````
+Output:
+````
 $output: colors = ('red', 'white', 'green', 'brown', 'maroon', 'yellow', 'blue', 'beige')
 
 ````
