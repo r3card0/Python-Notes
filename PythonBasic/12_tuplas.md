@@ -66,3 +66,13 @@ print(rock_tuple[-2])
 
 $otuput: 'Shale'
 ````
+
+### Implementar **if**, para determinar si un elemento se encuentra en la Tupla
+Para saber si un elemento específico está presente en una tupla, se puede usar **if** y **in**
+````
+clastic_rocks_tuple = ('Gravels','Sands','Clays')
+
+if 'Clays' in clastic_rocks_tuple:
+  print("Yes, 'Clays' is in the Clastic rocks tuple"
+````
+
