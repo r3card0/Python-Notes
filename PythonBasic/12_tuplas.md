@@ -57,7 +57,7 @@ print(rock_tuple[1])
 
 $otuput: 'Shale'
 ````
-Además, se puede usar el *Negative Indexing*, que permite elegir un elemento empezando desde el último elemento de la tupla. **-1** se refiere al último item, **-2** se refiere al penúltimo item de la estructura (Tupla)
+Además, se puede usar el *Negative Indexing*, que permite elegir un elemento empezando desde el último elemento de la tupla. **-1** se refiere al último item, **-2** se refiere al penúltimo item de la estructura (Tupla) y así consecutivamente.
 
 ````
 rock_tuple = ('Sandstone','Shale','Conglomerate')
