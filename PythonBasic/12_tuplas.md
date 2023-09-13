@@ -119,3 +119,19 @@ $output: maroon
 $output: red
 $output: ['white', 'green', 'brown']
 ````
+# Aplicando loop "while" en la Tupla
+El metodo *len( )* determina el numero de elementos en la tupla, ´para que el loop comience desde el índice 0, refiriendose a los índices. Hay que incrementar el índice por 1 en cada iteración.
+````
+colors = ('red','white','green','brown','maroon')
+
+i = 0
+while i < len(colors):
+    print(colors[i])
+    i = i+1
+
+$output: red
+$output: white
+$output: green
+$output: brown
+$output: maroon
+````
