@@ -202,3 +202,49 @@ Output:
 ````
 ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
 ````
+# Métodos de las Tuplas
+
+| Método | Descripción |
+|--------|-------------|
+|count( )| Retorna el número de veces que repite un elemento en la tupla |
+|index( )| Retorna la posición (indice) de un elemento en la tupla. En caso de que el elemento se repita varias veces, retorna la posición de la primera ocurrencia | 
+
+## Método count( )
+````
+colors = ('red','white','green','brown','maroon')
+new_colors = colors * 2
+
+print(new_colors.count('maroon'))
+````
+Output:
+````
+$output: 2
+````
+
+## Método index( )
+````
+new_colors = ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
+
+print(new_colors.index('maroon'))
+````
+Para este contexto, el elemento *maroon* se repite dos veces, por lo que ocupa dos posiciones diferentes. El método *index( )* retorna solo la primera posición. En este caso es el índice 4
+Output:
+````
+$output: 4
+````
+
+En caso de que el elemento buscado no se encuentre, se levanta una *exception*, si el valor no es encontrado
+````
+new_colors = ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
+
+print(new_colors.index('sucks'))
+````
+Output:
+````
+ValueError                                Traceback (most recent call last)
+Cell In[33], line 3
+      1 new_colors = ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
+----> 3 print(new_colors.index('sucks'))
+
+ValueError: tuple.index(x): x not in tuple
+````
