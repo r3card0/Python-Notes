@@ -171,6 +171,6 @@ colors2 = ('yellow','blue','beige')
 
 colors3 = colors + colors2
 print(colors3)
-$output: colors = ('red','white','green','brown','maroon')
+$output: colors = ('red', 'white', 'green', 'brown', 'maroon', 'yellow', 'blue', 'beige')
 
 ````
