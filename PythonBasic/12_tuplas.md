@@ -162,3 +162,15 @@ $output: green
 $output: brown
 $output: maroon
 ````
+
+# Unir tuplas (Join)
+Usar el operador **"+"** para unir tuplas. Los elementos de la segunda tupla se agregaran después de los elementos de la primera tupla
+````
+colors = ('red','white','green','brown','maroon')
+colors2 = ('yellow','blue','beige')
+
+colors3 = colors + colors2
+print(colors3)
+$output: colors = ('red','white','green','brown','maroon')
+
+````
