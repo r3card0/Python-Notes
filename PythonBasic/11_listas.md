@@ -2,11 +2,9 @@
 
 Las *variables* pueden almacenar un elemento. Las *listas* pueden almacenar más de dos elementos. Pueden almacenar una lista de elementos. Los elementos pueden ser textos, número o booleanos. En Python se conocen como items.
 
-Las listas pertenecen a un conjunto llamado “**estructuras de datos**”.
+Las **estructuras de datos** son formas que brindan los lenguajes de programación para guardar varios valores en una variable. Estos valores o items pueden tener diferente formato, como: strings, numéricos, boleados, 
 
-Las **estructuras de datos** son formas que brindan los lenguajes de programación para guardar varios valores en una variable. Estos valores o items pueden tener diferente formato, como: strings, numéricos, boleados, etc
-
-Por lo tanto, las listas pueden almacenar varios tipos de datos en una sola variable.
+Las listas son “**estructuras de datos**” que pueden almacenar varios tipos de datos en una sola variable.
 
 Para crear una lista se hace lo siguiente:
 
