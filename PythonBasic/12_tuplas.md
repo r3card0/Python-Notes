@@ -114,4 +114,8 @@ colors = ('red','white','green','brown','maroon')
 print(milk)
 print(fruit)
 print(meal)
+
+$output: maroon
+$output: red
+$output: ['white', 'green', 'brown']
 ````
