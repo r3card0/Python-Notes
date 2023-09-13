@@ -12,7 +12,7 @@ print(my_tuple)
 $output: (1,2,3,4)
 ````
 
-o bien con el método constructor *tuple()*
+o bien con el método constructor *tuple()*, cuando se desea convertir una lista o set. Este método es muy util cuando se quiere crear una tupla para que sea usada en un script *sql*.
 ````
 my_list = [1,2,3,4]
 my_new_tuple = tuple(my_list)
