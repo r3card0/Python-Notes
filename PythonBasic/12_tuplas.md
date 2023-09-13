@@ -188,3 +188,17 @@ Output:
 $output: colors = ('red', 'white', 'green', 'brown', 'maroon', 'yellow', 'blue', 'beige')
 
 ````
+# Multiplicar Tuplas
+La multiplicación entre tuplas se usa para dublicar los elementos en una nueva tupla. Recordando que las tuplas son inmutables y no aceptan cambios en el contenido de los elementos.
+
+El operador **"*"**, permite duplicar elementos en nuevas tuplas.
+````
+colors = ('red','white','green','brown','maroon')
+new_colors = colors * 2
+
+print(new_colors)
+````
+Output:
+````
+('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
+````
