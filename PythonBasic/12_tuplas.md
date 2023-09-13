@@ -28,6 +28,11 @@ $output: (1,2,3,4)
 * No permite borrar o agregar elementos (items) -> **inmutables**
 * Son iterables
 
+|Estructura | Indexed | Sorted | Duplicates | Mutable | Iterable |
+|-----------|---------|--------|------------|---------|----------|
+| LISTA | YES | YES | YES | YES | YES | 
+| TUPLA | YES | NO | YES | NO | YES |
+
 ## Las tuplas son estructuras indexadas
 Las tuplas son estructuras que tienen indices. Los indices son elementos numéricos internos de la tupla que permite asignar una posicion única al item que compone la tupla. De esta forma, permite ordenar, eliminar y agregar items dentro de la estructura (tupla). 
 
@@ -39,10 +44,6 @@ Los índices, permiten:
 
 Para el caso de las tuplas, los elementos no se pueden ordenar (sort), ni eliminar ni agregar nuevos elementos
 
-|Estructura | Indexed | Sorted | Duplicates | Mutable | Iterable |
-|-----------|---------|--------|------------|---------|----------|
-| LISTA | YES | YES | YES | YES | YES | 
-| TUPLA | YES | NO | YES | NO | YES |
 
 ## Como accesar a los elementos de la Tupla
 Como se vio anteriormente, se puede tener acceso a los elementos de las Tuplas a través de los índices. Para acceder a un elemento de la tupla solo se debe elegir el número del índice del elemento a través de **[ ]**. 
@@ -56,4 +57,12 @@ print(rock_tuple[1])
 
 $otuput: 'Shale'
 ````
+Además, se puede usar el *Negative Indexing*, que permite elegir un elemento empezando desde el último elemento de la tupla. **-1** se refiere al último item, **-2** se refiere al penúltimo item de la estructura (Tupla)
 
+````
+rock_tuple = ('Sandstone','Shale','Conglomerate')
+
+print(rock_tuple[-2])
+
+$otuput: 'Shale'
+````
