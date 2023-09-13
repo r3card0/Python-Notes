@@ -43,3 +43,17 @@ Para el caso de las tuplas, los elementos no se pueden ordenar (sort), ni elimin
 |-----------|---------|--------|------------|---------|----------|
 | LISTA | YES | YES | YES | YES | YES | 
 | TUPLA | YES | NO | YES | NO | YES |
+
+## Como accesar a los elementos de la Tupla
+Como se vio anteriormente, se puede tener acceso a los elementos de las Tuplas a través de los índices. Para acceder a un elemento de la tupla solo se debe elegir el número del índice del elemento. 
+
+El siguiente ejemplo muestra como se puede tener acceso al elemento 'Shale' de la tupla, rock_tuple.
+
+````
+rock_tuple = ('Sandstone','Shale','Conglomerate')
+
+print(rock_tuple[1])
+
+$otuput: 'Shale'
+````
+
