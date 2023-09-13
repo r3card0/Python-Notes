@@ -210,6 +210,7 @@ Output:
 |index( )| Retorna la posición (indice) de un elemento en la tupla. En caso de que el elemento se repita varias veces, retorna la posición de la primera ocurrencia | 
 
 ## Método count( )
+Recibe como parámetro el valor del elemento de la tupla. De esta forma retorna el número de veces que se repite el valor en la tupla.
 ````
 colors = ('red','white','green','brown','maroon')
 new_colors = colors * 2
@@ -222,7 +223,7 @@ $output: 2
 ````
 
 ## Método index( )
-Recibe como parámetro el valor del elemnto de la tupla. De esta forma, se busca y retorna la posición del elemento. En caso de que no se encuentre el valor, se levanta una *exception* de error.
+Recibe como parámetro el valor del elemento de la tupla. De esta forma, se busca y retorna la posición del elemento. En caso de que no se encuentre el valor, se levanta una *exception* de error.
 ````
 new_colors = ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
 
