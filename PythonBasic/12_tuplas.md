@@ -22,3 +22,13 @@ print(my_new_tuple)
 $output: (1,2,3,4)
 ````
 ## Características de las tuplas y diferencias con las [Listas](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/11_listas.md#listas)
+* Son estructuras indexadas
+* No pueden ser ordenadas
+* Permite valores duplicados
+* No permite borrar o agregar elementos (items) -> **inmutables**
+* Son iterables
+
+|Estructura | Indexed | Sorted | Duplicates | Mutable | Iterable |
+|-----------|---------|--------|------------|---------|----------|
+| LISTA | YES | YES | YES | YES | YES | 
+| TUPLA | YES | NO | YES | NO | YES |
