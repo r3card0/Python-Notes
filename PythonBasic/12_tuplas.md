@@ -135,3 +135,30 @@ $output: green
 $output: brown
 $output: maroon
 ````
+# Aplicando loop "for" en la Tupla
+````
+colors = ('red','white','green','brown','maroon')
+for color in colors:
+    print(color)
+
+$output: red
+$output: white
+$output: green
+$output: brown
+$output: maroon
+````
+
+Se puede aplicar el loop *for* a través de referir el número del índice, usando las funciones *range( )* y *len( )* para crear un iterable
+
+````
+colors = ('red','white','green','brown','maroon')
+
+for color in range(len(colors)):
+    print(colors[color])
+
+$output: red
+$output: white
+$output: green
+$output: brown
+$output: maroon
+````
