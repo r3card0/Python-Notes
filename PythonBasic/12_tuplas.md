@@ -222,6 +222,7 @@ $output: 2
 ````
 
 ## Método index( )
+Recibe como parámetro el valor del elemnto de la tupla. De esta forma, se busca y retorna la posición del elemento. En caso de que no se encuentre el valor, se levanta una *exception* de error.
 ````
 new_colors = ('red', 'white', 'green', 'brown', 'maroon', 'red', 'white', 'green', 'brown', 'maroon')
 
