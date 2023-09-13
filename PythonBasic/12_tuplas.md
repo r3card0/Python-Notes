@@ -91,4 +91,18 @@ print(rock2)
 
 $output: Sands
 ````
+### Aplicando * en el **unpakcing**
 
+Si el número de variables es menor que el número de elementos, se puede usar el asterico * al nombre de la vriable y los valores serán asignados a la variable en forma de lista.
+
+
+````
+clastic_rocks_tuple = ('Gravels','Sands','Clays')
+
+(rock1,*rock2) = clastic_rocks_tuple
+
+print(rock2)
+
+
+$output: ['Sands', 'Clays']
+````
