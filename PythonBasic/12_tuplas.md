@@ -73,6 +73,22 @@ Para saber si un elemento específico está presente en una tupla, se puede usar
 clastic_rocks_tuple = ('Gravels','Sands','Clays')
 
 if 'Clays' in clastic_rocks_tuple:
-  print("Yes, 'Clays' is in the Clastic rocks tuple"
+  print("Yes, 'Clays' is in the Clastic rocks tuple")
+````
+## Unpacking - Tupla
+Cuando se crea una Tupla, normalmente se le asignan valores. A esta asignación se le llama "packing". En inglés, "packing a tuple"
+
+En Python, se pueden extraer los elementos de una Tupla en varias variables. Esto es llamado **"Unpacking"**. Para aplicar el *"unpacking"*, se guardaran los elementos de la tupla ````clastic_rocks_tuple````, en tres diferentes variables: ````rock1````, ````rock2```` y ````rock3```` y esto se hace de la siguiente forma:
+1. Se crea una tupla de variables. Aqui es muy importante, no usar comillas simples ni dobles
+2. Se iguala la tupla de variables con la tupla. Muy importante es que el numero de variables de la tupla debe ser igual al numero de elementos contenidos en la tupla
+
+````
+clastic_rocks_tuple = ('Gravels','Sands','Clays')
+
+(rock1,rock2,rock3) = clastic_rocks_tuple
+
+print(rock2)
+
+$output: Sands
 ````
 
