@@ -17,13 +17,19 @@ En este tema, se hablara de los siguiente operadores:
 | == | igual|x == y|
 | != | No es igual|x != y|
 | > | Mayor que |x > y|
-| < | menor que |x == y|
+| < | menor que |x < y|
 | >= | Mayor o igual que |x >= y|
 | <= | menor o igual que |x <= y|
 
 ## Asignación
 ## Comparación
+
 ## Lógicos
+|Operador|descripcion|ejemplo|
+|-|-|-|
+|**and**|Retorna **TRUE** si ambas condiciones son verdadedras|x < 5 **and** x < 10|
+|**or**|Retorna **TRUE** si una de las condicones es verdadera|x < 5 **or** x < 10|
+|**not**|Retorna **FALSE** si el resultado es verdadero| **not**( x < 5 **and** x < 10 )|
 
 # Resumen
 1. Python puede ser usado como calculadora ya que realiza operaciones artiméticas comunes.
