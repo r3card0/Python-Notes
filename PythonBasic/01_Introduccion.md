@@ -40,3 +40,5 @@ No se explicará como instalar y usar Python en la máquina local. En vez de eso
 - [ ] [Curso basico de Python - Platzi](https://platzi.com/cursos/python/)
 - [ ] [Python.org](https://www.python.org/doc/essays/blurb/)
 - [ ] [Wikipedia - Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+***Siguiente Tema:*** **[Comando Print]()**
