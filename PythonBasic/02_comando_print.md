@@ -36,3 +36,4 @@ En Python existen funciones que pertenecen al grupo ***Built-in***. Estas funcio
 - [ ] [Python.org](https://www.python.org/doc/essays/blurb/)
 - [ ] [Real Python-python_print](https://realpython.com/python-print/)
 - [ ] [Built-in functions](https://docs.python.org/3/library/functions.html)
+- [ ] [Built-in functions|print](https://docs.python.org/3/library/functions.html#print)
