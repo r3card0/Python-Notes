@@ -7,8 +7,19 @@
 Aprender el uso del comando ***print( )***.
 
 ## Usos
-El comando ***print( )***, se usa para imprimir objetos en pantalla. Los objetos pueden ser, *mensajes de texto*, *resaultados de operaciones artiméticas*.
+El comando ***print( )***, se usa para imprimir objetos en pantalla. Los objetos pueden ser, *mensajes de texto*, *resultados de operaciones artiméticas*, variables, etc.
 
-Para imprimir mensajes de texto, es necesario que el texto este encerrado entre comillas simples o dobles. En Python, se puede ocupar ambas comillas para usar texto. En inglés, el *texto* es conocido como *string*.
+Para imprimir mensajes de texto, es necesario que el texto este encerrado entre comillas simples **'texto'** o dobles **"texto"**. En Python, se puede ocupar ambas comillas para este fin. En inglés, el *texto* es conocido como *string*.
+
+### Hola Mundo 
+Crea tu primer codigo en Python, impriendo el mensaje *Hola Mundo*. El siguiente codigoPara crear tu primer codigo en Python, 
+```
+print("Hola Mundo") # español
+```
+```
+print('Hello world") # english version
+```
+
+En el siguiente [link](https://colab.research.google.com/drive/1oInllSDvF5xxAhKwB5Ylrz4_JNcAUrxs?usp=sharing), encontrarás un notebook para practicar.
 
 # Referencias
