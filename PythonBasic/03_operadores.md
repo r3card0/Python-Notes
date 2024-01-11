@@ -1,5 +1,7 @@
 # Operadores
-![operators](https://cdn.pixabay.com/photo/2021/10/05/21/46/math-6683827_1280.png)
+![operators](https://cdn.pixabay.com/photo/2021/10/05/21/46/math-6683827_640.png)
+
+[Picture by thehalaldesign](https://pixabay.com/users/thehalaldesign-19718486/)
 Python maneja varios tipos de operadores. Los operadores son los que manipulan el valor de los operandos. En la expresión 3 + 7 = 10, los números 3 y 7 son llamados operandos y el símbolo + es llamado operador.
 
 En este tema, se hablara de los siguiente operadores:
