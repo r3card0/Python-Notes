@@ -10,6 +10,7 @@ En este tema, se hablara de los siguiente operadores:
 2. [Asignación](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/03_operadores.md#asignaci%C3%B3n)
 3. [Comparación](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/03_operadores.md#comparaci%C3%B3n)
 4. [Lógicos](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/03_operadores.md#l%C3%B3gicos)
+5. [Precedencia]()
 
 ## Aritméticos
 |Operador|descripcion|ejemplo|
@@ -30,6 +31,14 @@ En este tema, se hablara de los siguiente operadores:
 |**and**|Retorna **TRUE** si ambas condiciones son verdadedras|x < 5 **and** x < 10|
 |**or**|Retorna **TRUE** si una de las condicones es verdadera|x < 5 **or** x < 10|
 |**not**|Retorna **FALSE** si el resultado es verdadero| **not**( x < 5 **and** x < 10 )|
+
+## Orden de precendencia
+En Python los operadores se resuelven por importancia. en la siguiente lista se puede ver el orden en que los operadores se resuelven, siendo el **( )** el que se resuelve primero y el operador lógico **OR** es el último en resolver.
+
+|nivel de precedencia| operador|descripcion|
+|-|-|-|
+|1|**( )**|parentesis|
+|2|**|exponente (potencia)|
 
 # Resumen
 1. Python puede ser usado como calculadora ya que realiza operaciones artiméticas comunes.
