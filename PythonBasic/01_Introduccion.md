@@ -29,3 +29,14 @@ Netflix.
 En Netflix, el uso de Python has sido implementado por la gran variedad de librerias y comunidad con las que cuenta el lenguaje, ayudando así a los desarrolladores de la empresa a inovar de forma rápida en la plataforma de Netflix. Se usa Python para crear herramientas para comunicarse con AWS, almacenar información, etc. Una aplicación muy importante, es usar Python en las áreas de Data Science e Ingeniería para crear aprendizaje a partir de la gran cantidad de datos que generan. Python es usado en herramientas para monitorear la calidad de información, sincronización, en procesos de ETL, correr en varias aplicaciones web para visualizar datos. etc
 
 [Fuente-Netflix TecBlog](https://netflixtechblog.com/python-at-netflix-86b6028b3b3e)
+
+# Objetivo
+El objetivo de este proyecto es facilitar el proceso de aprendizaje del lenguaje Python, buscando explicar los términos técnicos en palabras sencillas y usando ejemplos de uso cotidiando para tener un mejor acercamiento con el lenguaje.
+
+## Alcance 
+No se explicará como instalar y usar Python en la máquina local. En vez de eso se usarán los Jupyter Notebooks, para realizar y correr los programas directamente en Internet sin necesida de realizar instalaciones en tu máquina local
+
+# Referencias
+- [ ] [Curso basico de Python - Platzi](https://platzi.com/cursos/python/)
+- [ ] [Python.org](https://www.python.org/doc/essays/blurb/)
+- [ ] [Wikipedia - Python](https://en.wikipedia.org/wiki/Python_(programming_language))
