@@ -34,11 +34,11 @@ En Netflix, el uso de Python has sido implementado por la gran variedad de libre
 El objetivo de este proyecto es facilitar el proceso de aprendizaje del lenguaje Python, buscando explicar los términos técnicos en palabras sencillas y usando ejemplos de uso cotidiando para tener un mejor acercamiento con el lenguaje.
 
 ## Alcance 
-No se explicará como instalar y usar Python en la máquina local. En vez de eso se usarán los Jupyter Notebooks, para realizar y correr los programas directamente en Internet sin necesida de realizar instalaciones en tu máquina local
+No se explicará como instalar y usar Python en la máquina local. En vez de eso se usarán los Jupyter Notebooks, para realizar y correr los programas directamente en Internet sin necesidad de realizar instalaciones en tu máquina local
 
 # Referencias
 - [ ] [Curso basico de Python - Platzi](https://platzi.com/cursos/python/)
 - [ ] [Python.org](https://www.python.org/doc/essays/blurb/)
 - [ ] [Wikipedia - Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-***Siguiente Tema:*** **[Comando Print]()**
+***Siguiente Tema:*** **[Comando Print](https://github.com/r3card0/Python-Notes/blob/main/PythonBasic/02_comando_print.md)**
