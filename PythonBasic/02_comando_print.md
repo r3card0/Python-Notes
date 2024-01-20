@@ -1,7 +1,7 @@
 # Comando ***print( )***
 ![Hello](https://images.pexels.com/photos/3747150/pexels-photo-3747150.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)
 
-[Picture by Polina Z.](https://www.pexels.com/@polina-zimmerman/)
+[📷 Picture by Polina Z.](https://www.pexels.com/@polina-zimmerman/)
 
 ## Objetivo
 Aprender el uso del comando ***print( )***.
