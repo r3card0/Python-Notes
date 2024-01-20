@@ -47,6 +47,42 @@ Resultado:
 ```
 El comando *print*, puede imprimir los mensajes de ambas variables y usa el separador *coma* **" , "** para distinguir ambas variables. A la acción de *juntar* dos o mas mensajes de texto *(strings)*, en programación se le conoce como *concatenar* o *concatenate* en inglés. Para
 
+## Imprimir números
+Como en los textos, el comando *print* puede imprimir números. La forma correcta es la que sigue
+```
+print(6)
+```
+Resultado:
+```
+6
+```
+Los valores numéricos no requieren de comillas simples o dobles como los textos, a menos de que se usen como texto. 
+
+Se pueden imprimir los resultados de operaciones matematicas
+```
+print(3 + 4)
+```
+Resultado
+```
+7
+```
+Como se explico en los strings, los valores numéricos pueden ser almacenados en variables
+```
+edad_pedro = 25
+edad_maria = 24
+```
+Imprimir la edad de Pedro
+```
+print(edad_pedro)
+```
+Resultado:
+```
+25
+```
+
+
+## Imprimir strings y números
+
 
 En el siguiente [link](https://colab.research.google.com/drive/1oInllSDvF5xxAhKwB5Ylrz4_JNcAUrxs?usp=sharing), encontrarás un notebook para practicar.
 
