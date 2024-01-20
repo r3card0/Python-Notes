@@ -12,7 +12,7 @@ El comando ***print( )***, se usa para imprimir objetos en pantalla. Los objetos
 Para imprimir mensajes de texto, es necesario que el texto este encerrado entre comillas simples **'texto'** o dobles **"texto"**. En Python, se puede ocupar ambas comillas para este fin. En inglés, el *texto* es conocido como *string*.
 
 ### Hola Mundo 
-Crea tu primer codigo en Python, impriendo el mensaje *Hola Mundo*. El siguiente codigoPara crear tu primer codigo en Python, 
+Para empezar a usar este comando, comúnmente se usa el mensaje *¡Hola Mundo!* o *Hello World!* en inglés. Puedes crear tu primer línea de código en Python
 ```
 print("Hola Mundo") # español
 ```
@@ -20,7 +20,37 @@ print("Hola Mundo") # español
 print('Hello world") # english version
 ```
 
+Como se ha mostrado, los textos o *strings*, deben ir marcados entre comillas simples o dobles y además, estos *string*s pueden ir almacenados en *variables*. En el siguiente ejemplo, veremos como se asigna el string *¡Hola Mundo!* a la variable *saludo*
+```
+saludo = "¡Hola Mundo!"
+```
+el comando *print*, puede imprimir el mensaje contenido en la variable *saludo*
+```
+print(saludo)
+```
+Resultado:
+```
+¡Hola Mundo!
+```
+
+Ahora, supongamos que se tienen dos variables que almacenan mensajes de texto. El comando *print*, puede imprimir los mensajes de ambas *variables*
+```
+objetivo = "Estoy aprendiendo a programar en Python 🐍"
+```
+Ahora podemos imprimir los mensajes de las variables, *saludo* y *objetivo* 
+```
+print(saludo,objetivo)
+```
+Resultado:
+```
+¡Hola Mundo! Estoy aprendiendo a programar en Python 🐍
+```
+El comando *print*, puede imprimir los mensajes de ambas variables y usa el separador *coma* **" , "** para distinguir ambas variables. A la acción de *juntar* dos o mas mensajes de texto *(strings)*, en programación se le conoce como *concatenar* o *concatenate* en inglés. Para
+
+
 En el siguiente [link](https://colab.research.google.com/drive/1oInllSDvF5xxAhKwB5Ylrz4_JNcAUrxs?usp=sharing), encontrarás un notebook para practicar.
+
+
 
 # Funciones *Built-in*
 En Python existen funciones que pertenecen al grupo ***Built-in***. Estas funciones son predeterminadas, y esto quiere decir que por si mismas ya cumplen funciones (acciones) especificas y están creadas desde el lenguaje Python. El comando *print( ), es una funcion Built-in*. Hay muchas funciones Built-in en Python y que se verán mas adelante.
