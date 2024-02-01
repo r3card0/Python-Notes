@@ -13,19 +13,19 @@ Para imprimir mensajes de texto, es necesario que el texto este encerrado entre 
 
 ### Hola Mundo 
 Para empezar a usar este comando, comúnmente se usa el mensaje *¡Hola Mundo!* o *Hello World!* en inglés. Puedes crear tu primer línea de código en Python
-```
+```python
 print("Hola Mundo") # español
 ```
-```
+```python
 print('Hello world") # english version
 ```
 
 Como se ha mostrado, los textos o *strings*, deben ir marcados entre comillas simples o dobles y además, estos *string*s pueden ir almacenados en *variables*. En el siguiente ejemplo, veremos como se asigna el string *¡Hola Mundo!* a la variable *saludo*
-```
+```python
 saludo = "¡Hola Mundo!"
 ```
 el comando *print*, puede imprimir el mensaje contenido en la variable *saludo*
-```
+```python
 print(saludo)
 ```
 Resultado:
@@ -34,11 +34,11 @@ Resultado:
 ```
 
 Ahora, supongamos que se tienen dos variables que almacenan mensajes de texto. El comando *print*, puede imprimir los mensajes de ambas *variables*
-```
+```python
 objetivo = "Estoy aprendiendo a programar en Python 🐍"
 ```
 Ahora podemos imprimir los mensajes de las variables, *saludo* y *objetivo* 
-```
+```python
 print(saludo,objetivo)
 ```
 Resultado:
@@ -49,7 +49,7 @@ El comando *print*, puede imprimir los mensajes de ambas variables y usa el sepa
 
 ## Imprimir números
 Como en los textos, el comando *print* puede imprimir números. La forma correcta es la que sigue
-```
+```python
 print(6)
 ```
 Resultado:
@@ -59,7 +59,7 @@ Resultado:
 Los valores numéricos no requieren de comillas simples o dobles como los textos, a menos de que se usen como texto. 
 
 Se pueden imprimir los resultados de operaciones matematicas
-```
+```python
 print(3 + 4)
 ```
 Resultado
@@ -67,12 +67,12 @@ Resultado
 7
 ```
 Como se explico en los strings, los valores numéricos pueden ser almacenados en variables
-```
+```python
 edad_pedro = 25
 edad_maria = 24
 ```
 Imprimir la edad de Pedro
-```
+```python
 print(edad_pedro)
 ```
 Resultado:
