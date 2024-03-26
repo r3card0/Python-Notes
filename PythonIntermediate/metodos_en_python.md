@@ -28,3 +28,20 @@ El resultado será:
 |POINT(-122.3, 47.6)|
 
 Observa que el método **zip( )** combinó los valores de las coordendas *lon* y *lat* y creó una tupla de coordenadas.
+
+Otro ejemplo de la aplicación del método es cuando se tiene 3 listas y se requiere combinar los elementos. Ver el código:
+```python
+lista1 = [1, 2, 3]
+lista2 = ['a', 'b', 'c']
+lista3 = ['x','y','z']
+lista4 = []
+
+for elemento1, elemento2, elemento3 in zip(lista1, lista2,lista3):
+    lista4.append([elemento1, elemento2, elemento3])
+
+print(lista4)
+```
+El resultado será
+```bash
+[[1, 'a', 'x'], [2, 'b', 'y'], [3, 'c', 'z']]
+```
