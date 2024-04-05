@@ -40,7 +40,6 @@ Ambos métodos recorren la lista una vez para encontrar el valor máximo. Por lo
 
 Sin embargo, el método `max(lista)` proporciona una sintaxis más concisa y legible, lo que lo hace preferible en la mayoría de los casos. Además, está implementado en C, lo que significa que es más rápido que el bucle `for` en Python puro.
 
-En resumen, el enfoque que proporcionaste es válido y eficiente para encontrar el valor máximo en una lista. Sin embargo, en la mayoría de los casos, se prefiere `max(lista)` debido a su mayor claridad y velocidad.
 
 
 # Encontrar el tercer valor máximo de una lista
@@ -110,3 +109,5 @@ tercer_maximo_valor = max(lista)
 
 print(tercer_maximo_valor)
 ```
+
+En resumen, el primer enfoque es válido y eficiente para encontrar el valor máximo en una lista. Sin embargo, en la mayoría de los casos, se prefiere `max(lista)` debido a su mayor claridad y velocidad.
