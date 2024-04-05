@@ -28,6 +28,12 @@ for elemento in lista:
 
 print(valor_maximo)
 ```
+En este codigo se desglosa:
+- La línea ```valor_maximo = lista[0]```, permite establecer el inicio del recorrido de la lista, siendo el elemento de la posicion *0*, donde empezará el recorrido
+- La Línea ```for elemento in lista:```, se establece que se recorreran los elementos de la lista
+- La linea ``` if elemento > valor_maximo```, con la condicional *if*, recorrera cada elemento de la lista comparandolo con el valor de la variable *valor_maximo* , este recorrido se detendra cuando se cumpla la condicion de localizar el valor máximo de la lista
+- La linea ```valor_maximo = elemento```, esta linea sustituira el valor cada vez que encuentre un valor mayor al anterior, hasta que termine de recorrer todos los elementos de la lista, retornando el valor mas alto.
+- La linea ``` print(valor_maximo)```, imprime el valor maximo resultante.
 
 
-# Encontra el tercer valor máximo de una lista
+# Encontrar el tercer valor máximo de una lista
