@@ -44,3 +44,69 @@ En resumen, el enfoque que proporcionaste es válido y eficiente para encontrar 
 
 
 # Encontrar el tercer valor máximo de una lista
+Hsy dos maneras principales para encontrar el segundo, tercero o cualquier valor máximo de una lista:
+- Ordenando la lista
+- No ordenando la lista
+
+Ordenar la lista, es el método mas sencillo para contrar el maximo valor deseado
+```python
+lista = [34,54,457,23,12,89,789]
+lista.sort()
+valor_maximo = lista[(len(lista) - 3)] # extrae el valor de la ante-penúltima posicion
+
+print(valor_maximo)
+```
+Resultato
+```
+89
+```
+
+Sin ordenar la lista, requiere un poco más de codigo y nuevamente se utiliza el **for**.
+
+Un forma es encontrar el valor máximo de la lista, almacenarlo en una variable que se llame por ejemplo *maximo_valor*, para después *removerlo* de la lista,  después, se repite el paso anterior, pero esta vez se almacena en una variable llamada *segundo_maximo_valor* y nuevamente se aplica el proceso, almacenando el maximo valor en una variable llamada *tercer_maximo_valor*
+
+Aqui una propuesta aplicando lo anterior sin usar el método *max( )*:
+```python
+# encontrar el tercer valor maximo de una lista
+lista = [34,54,457,23,12,89,789]
+
+maximo_valor = lista[0]
+for i in lista:
+    if i > maximo_valor:
+        maximo_valor = i
+lista.remove(maximo_valor)
+
+segundo_maximo_valor = lista[0]
+for i in lista:
+    if i > segundo_maximo_valor:
+        segundo_maximo_valor = i
+lista.remove(segundo_maximo_valor)
+
+tercer_maximo_valor = lista[0]
+for i in lista:
+    if i > tercer_maximo_valor:
+        tercer_maximo_valor = i
+        
+print(tercer_maximo_valor)
+```
+Resultado
+```
+89
+```
+
+Ahora aplicando el método *max( )*:
+```python
+lista = [34,54,457,23,12,89,789]
+# encontrar el maximo valor
+maximo_valor = max(lista)
+lista.remove(maximo_valor)
+
+# encontrar el segundo maximo valor
+segundo_maximo_valor = max(lista)
+lista.remove(segundo_maximo_valor)
+
+# encontrar el tercer maximo valor
+tercer_maximo_valor = max(lista)
+
+print(tercer_maximo_valor)
+```
