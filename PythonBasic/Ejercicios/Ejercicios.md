@@ -35,5 +35,12 @@ En este codigo se desglosa:
 - La linea ```valor_maximo = elemento```, esta linea sustituira el valor cada vez que encuentre un valor mayor al anterior, hasta que termine de recorrer todos los elementos de la lista, retornando el valor mas alto.
 - La linea ``` print(valor_maximo)```, imprime el valor maximo resultante.
 
+## ¿Cuál de las dos anteriores es mejor?
+Ambos métodos recorren la lista una vez para encontrar el valor máximo. Por lo tanto, en términos de eficiencia, ambos tienen una complejidad de tiempo similar, es decir, O(n), donde "n" es el número de elementos en la lista.
+
+Sin embargo, el método `max(lista)` proporciona una sintaxis más concisa y legible, lo que lo hace preferible en la mayoría de los casos. Además, está implementado en C, lo que significa que es más rápido que el bucle `for` en Python puro.
+
+En resumen, el enfoque que proporcionaste es válido y eficiente para encontrar el valor máximo en una lista. Sin embargo, en la mayoría de los casos, se prefiere `max(lista)` debido a su mayor claridad y velocidad.
+
 
 # Encontrar el tercer valor máximo de una lista
