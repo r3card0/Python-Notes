@@ -11,14 +11,14 @@ Para crear una lista se hace lo siguiente:
 Nombre de la variable seguido el signo de “=“, abrir corchetes [ ] y dentro de los corchetes los tipos de datos que se desean guardar.
 
 Ejemplo 1 . Crear una lista de planetas
-```
+```python
 lista = ['Mercurio','Venus','Tierra🌎','Marte','Júpiter','Saturno','Urano','Neptuno']
 ```
 
 # Listas 
 
 Las listas son estructuras de datos que permiten almacenar grupos de elementos. Los valores almacenados en las listas pueden tener diversos tipos de datos (data types)
-```
+```python
 lista_2 = [5,'cinco',5.5, True]
 ```
 En este ejemplo, se puede observar que la lista contiene elementos con diferentes tipos de datos (data types)
@@ -57,7 +57,7 @@ Crear una lista de paises que empiecen con la letra "A"
 3. Respetar la sintáxis de los tipos de datos. En ese caso son cadenas de texto (string), por lo que cada pais debe estar escrito entre comillas simples 'pais'
 4. Separar cada pais (item) usando la coma ```,```
 
-```
+```python
 # definir la variable -> lista
 paises = ['Argentina','Alemania','Arabia Saudita','Austria','Angola','Australia']
 
@@ -75,7 +75,7 @@ print(type(paises)
 
 ### Método constructor ```list()```
 El método constructor ```list()``` , se implementa cuando se quiere convertir una colección de elementos como la tupla o el Set.
-```
+```python
 # convertir el set1 a lista
 set1 = {1,2,3,4}
 
